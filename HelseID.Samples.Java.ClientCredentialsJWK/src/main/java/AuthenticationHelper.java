@@ -24,7 +24,7 @@ import com.nimbusds.jwt.SignedJWT;
 public class AuthenticationHelper {
 
 	private final static String HELSEID_METADATA_LINK = "https://helseid-sts.utvikling.nhn.no/.well-known/openid-configuration";
-	private final static String CLIENT_ID = "sample-m2m-app";
+	private final static String CLIENT_ID = "java-m2m-app";
 
 	private JSONObject helseIdMetadata;
 	private HttpClient client = HttpClient.newHttpClient();
